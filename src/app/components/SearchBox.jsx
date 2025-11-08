@@ -3,8 +3,8 @@
 export default function Searchbox({value, onChange}) {
     return ( 
         <label>
-            Search Box
-            <input type="text" placeholder="Search by title or description" value = {value} onChange={(e) => onChange(e.target.value)}/>
+            Search Box:
+            <input type="text" placeholder="Search" value = {value} onChange={(e) => onChange(e.target.value)}/>
         </label>
     );
 };
